@@ -21,7 +21,7 @@ const Projects = () => {
           des=" Developing a Canvas clone, replicating key features and functionalities of the original platform."
               imgSrc={projectOne}
               gitLink="https://github.com/johnathon308/kanbas-react-web-app"
-              globeLink="https://dainty-maamoul-a4f634.netlify.app/kanbas/courses/home/screen"
+              globeLink="https://gregarious-conkies-f8438c.netlify.app"
         />
         <ProjectsCard
           title="Tic Tac Toe (TELEPORT)"
