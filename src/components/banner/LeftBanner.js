@@ -1,6 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { /*FaFacebookF, FaTwitter,*/ FaLinkedinIn, FaReact } from "react-icons/fa";
+import Media from './media';
+// import { /*FaFacebookF, FaTwitter,*/ FaLinkedinIn, FaReact } from "react-icons/fa";
 // import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
@@ -27,47 +28,15 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I love food. 
+        I'm a passionate computer science major with a love for code, cuisine, and sports. 
+        I find joy in the kitchen, experimenting with ingredients and creating culinary delights. 
+        Beyond algorithms, you'll find me on the basketball court, fueling my competitive 
+        spirit and commitment to teamwork. I also enjoy diving into captivating anime worlds, 
+        whether unraveling code or savoring intricate plots. Let's work together and embark on 
+        a journey of discovery and excellence.
         </p>
       </div>
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            Find me on
-          </h2>
-          <div className="flex gap-4">
-            {/* <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span> */}
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </div>
-        </div>
-        <div>
-          <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILLED ON
-          </h2>
-          <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaReact />
-            </span>
-            {/*             
-            <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span> */}
-          </div>
-        </div>
-      </div>
+      <Media />
     </div>
   );
 }
