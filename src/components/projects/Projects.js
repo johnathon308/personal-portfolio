@@ -11,47 +11,30 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title="VISIT MY PORTFOLIO"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+        {/* <ProjectsCard
+          title="CANVAS CLONE (IN PROGRESS)"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
+              imgSrc={projectOne}
+        /> */}
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          title="Tic Tac Toe (TELEPORT)"
+          des="Standard functionality of Tic Tac Toe. Incorporated a unique time-travel feature, enabling users to navigate back to specific moves during the game for a more interactive and analytical experience."
+          imgSrc={projectTwo}
+          gitLink="https://github.com/johnathon308/tic-tac-toe-teleport-app"
+          globeLink="https://monumental-blancmange-fcc607.netlify.app"
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+              imgSrc={projectThree}
+        /> */}
       </div>
     </section>
   );

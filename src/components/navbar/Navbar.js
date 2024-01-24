@@ -5,12 +5,13 @@ import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
+import './navbar.css';
 
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div>
+    <div className="nav-bar">
+      <div className= "navbar-logo">
         <img src={logo} alt="logo" />
       </div>
       <div>
@@ -40,7 +41,7 @@ const Navbar = () => {
           <FiMenu />
         </span>
         {showMenu && (
-          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
+          <div className="navbar-menu">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <img className="w-32" src={logo} alt="logo" />

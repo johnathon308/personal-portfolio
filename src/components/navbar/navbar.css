@@ -1,0 +1,39 @@
+.nav-bar {
+    width: 100%;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #202327;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'titleFont';
+    border-bottom: 1px solid #666;
+  }
+
+  .navbar-logo{
+    width: 5%;
+  }
+  
+  
+  .menu-icon {
+    font-size: 1.5rem;
+    color: #ff014f;
+    cursor: pointer;
+  }
+  
+  .navbar-menu {
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding: 1rem;
+    scrollbar-width: thin;
+    scrollbar-color: #fff #333;
+  }
+  
