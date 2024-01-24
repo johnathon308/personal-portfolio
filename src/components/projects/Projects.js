@@ -16,12 +16,13 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        {/* <ProjectsCard
-          title="CANVAS CLONE (IN PROGRESS)"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+        <ProjectsCard
+          title="CANVAS CLONE"
+          des=" Developing a Canvas clone, replicating key features and functionalities of the original platform."
               imgSrc={projectOne}
-        /> */}
+              gitLink="https://github.com/johnathon308/kanbas-react-web-app"
+              globeLink="https://dainty-maamoul-a4f634.netlify.app/kanbas/courses/home/screen"
+        />
         <ProjectsCard
           title="Tic Tac Toe (TELEPORT)"
           des="Standard functionality of Tic Tac Toe. Incorporated a unique time-travel feature, enabling users to navigate back to specific moves during the game for a more interactive and analytical experience."
